@@ -15,7 +15,7 @@ function NewPlantForm({ newPlant }) {
 //submit to the db using method POST
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch("http://localhost:3000/plants", {
+    fetch("https://react-hooks-cc-plantshop-k7zu.onrender.com/plants", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
