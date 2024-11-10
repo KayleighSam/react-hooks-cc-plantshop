@@ -14,7 +14,7 @@ A user also can be able to search for a specific record using keywards in the se
 * And you are all done
 
 ## Live server
-* You can view the web live at:  https://cerulean-cupcake-d20c0e.netlify.app/
+* You can view the web live at:  https://serene-manatee-92d172.netlify.app/
 
 * You can view the db.json database deployed on render live at:  https://react-hooks-cc-plantshop-k7zu.onrender.com
 
