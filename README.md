@@ -1,5 +1,5 @@
 
-#### The app is my Hog Wild code challenge
+#### The app is my Plantsy web code challenge
 #### **By Samson Mwaura Wanjiru**
 ## Description
 The application includes a  landing page showing a list of plants records with its description like name, price, status i.e if it is available or sold out out.
