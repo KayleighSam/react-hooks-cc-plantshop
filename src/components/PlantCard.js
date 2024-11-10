@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 
 function PlantCard({ plant }) {
-  const [soldOut, setsoldOut] = useState(false);
+  const [soldOut, setSoldOut] = useState();
 
   const handleSoldOut = () => {
-    setsoldOut((prev) => !prev);
+    setSoldOut((prevSoldOut) => !prevSoldOut);
+
   };
 //container that holds the plant list and its details, also the operations to set whether the plant is available or sold out goes here
   return (

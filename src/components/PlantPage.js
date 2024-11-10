@@ -13,9 +13,9 @@ function PlantPage() {
   }, []);
 
   //serach operations
-  const [searchPlant, setsSearchPlant] = useState('');
+  const [searchPlant, setSearchPlant] = useState('');
   const handleSearchChange = (s) => {
-    setsSearchPlant(s);
+    setSearchPlant(s);
   };
 
   const plantFilter= plants.filter((plant) =>

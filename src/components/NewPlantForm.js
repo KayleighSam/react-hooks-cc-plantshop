@@ -1,16 +1,13 @@
 import React from "react";
 import { useState } from "react";
 
-
+//set the ustate variable as empty since they are going to be filled by form data entered
 function NewPlantForm({ newPlant }) {
-  const [formData, setFormData] = useState({
-    name: "",
-    image: "",
-    price: "",
-  });
+  const [formData, setFormData] = useState({ name: "", image: "", price: "" });
 
-  const handleChange = ({ target: { name, value } }) =>
-    setFormData((prevData) => ({ ...prevData, [name]: value }));
+  const handleChange = (e) =>
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  
   
 //submit to the db using method POST
   const handleSubmit = (e) => {
