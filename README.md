@@ -1,150 +1,35 @@
-# Phase 2 Code Challenge: Plantsy
 
-## Demo
+#### The app is my Hog Wild code challenge
+#### **By Samson Mwaura Wanjiru**
+## Description
+The application includes a  landing page showing a list of plants records with its description like name, price, status i.e if it is available or sold out out.
+User have a section to add new plant with information of plant name, image and price and on adding, the record is added to the catalogue.
+A user also can be able to search for a specific record using keywards in the seact section.Finaly a user can be able to check the plant record status from Available to sold out.
+ 
+## Setup/Installation Instruction
+* Download a zip in the code button to the desired folder
+* Extract the files
+* Open the extracted folder with VSCode
+* run npm start and it goes directly to the landing page
+* And you are all done
 
-Use this gif as an example of how the app should work.
+## Live server
+* You can view the web live at:  https://cerulean-cupcake-d20c0e.netlify.app/
 
-![Demo GIF](https://curriculum-content.s3.amazonaws.com/phase-2/react-hooks-mock-code-challenge-plantshop/plantsy_demo.gif)
+* You can view the db.json database deployed on render live at:  https://react-hooks-cc-plantshop-k7zu.onrender.com
 
-## Instructions
+* You can view the plants records by adding /plants on the db.json live on render to populate full record :https://react-hooks-cc-plantshop-k7zu.onrender.com/plants
 
-Welcome to Plantsy! You've been tasked with building out some features for the
-admin side of a plant store. The designers have put together the components and
-CSS. Now it's up to you to bring the features to life by adding stateful logic
-as well as persisting data to the backend via our API.
+## Known Bugs
+The application works perfectly well, with no bugs.
 
-Your job will be to make our app work according to the user stories you will
-find the [Core Deliverables](#Core-Deliverables) section.
+## Technologies Used
+HTML, CSS, Javascript, React, GIT
 
-## Setup
+## Support and contact details
+email:: 1samempire@gmail.com
 
-1. Run `npm install` in your terminal.
-2. Run `npm run server`. This will run your backend on port `6001`.
-3. In a new terminal, run `npm start`.
+### License
+*LIcenced under the [MT-licence]
 
-Make sure to open [http://localhost:6001/plants](http://localhost:6001/plants)
-in the browser to verify that your backend is working before you proceed!
-
-## Endpoints
-
-The base URL for your backend is: `http://localhost:6001`
-
-## Core Deliverables
-
-As a user:
-
-1. When the app starts, I can see all plants.
-2. I can add a new plant to the page by submitting the form.
-3. I can mark a plant as "sold out".
-4. I can search for plants by their name and see a filtered list of plants.
-
-### Endpoints for Core Deliverables
-
-#### GET /plants
-
-Example Response:
-
-```json
-[
-  {
-    "id": 1,
-    "name": "Aloe",
-    "image": "./images/aloe.jpg",
-    "price": 15.99
-  },
-  {
-    "id": 2,
-    "name": "ZZ Plant",
-    "image": "./images/zz-plant.jpg",
-    "price": 25.98
-  }
-]
-```
-
-#### POST `/plants`
-
-Required Headers:
-
-```js
-{
-  "Content-Type": "application/json"
-}
-```
-
-Request Object:
-
-```json
-{
-  "name": "string",
-  "image": "string",
-  "price": number
-}
-```
-
-Example Response:
-
-```json
-{
-  "id": 1,
-  "name": "Aloe",
-  "image": "./images/aloe.jpg",
-  "price": 15.99
-}
-```
-
-## Advanced Deliverables
-
-These deliverables are not required to pass the code challenge, but if you have
-the extra time, or even after the code challenge, they are a great way to
-stretch your skills.
-
-You'll have to add additional elements for these features. Feel free to style
-them however you see fit!
-
-> Note: If you are going to attempt these advanced deliverables, please be sure
-> to have a working commit with all the Core Deliverables first!
-
-As a user:
-
-1. I can update the price of a plant and still see the updated price after
-   refreshing the page.
-2. I can delete a plant and it is still gone when I refresh the page.
-
-### Endpoints for Advanced Deliverables
-
-#### PATCH /plants/:id
-
-Required Headers:
-
-```js
-{
-  "Content-Type": "application/json"
-}
-```
-
-Request Object:
-
-```json
-{
-  "price": number
-}
-```
-
-Example Response:
-
-```json
-{
-  "id": 1,
-  "name": "Aloe",
-  "image": "./images/aloe.jpg",
-  "price": 16.99
-}
-```
-
-#### DELETE /plants/:id
-
-Example Response:
-
-```json
-{}
-```
+Copyright (c) 2024 **Samson Mwaura Wanjru**
